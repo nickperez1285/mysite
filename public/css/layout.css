@@ -1,4 +1,6 @@
-/*
+/*@
+import "react-slideshow-image/dist/styles.css";
+import 'react-slideshow-image/dist/styles.css'
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
 *   url: styleshout.com
@@ -29,7 +31,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+@import "react-slideshow-image/dist/styles.css";
 header {
 	position: relative;
 	height: 800px;
@@ -1152,7 +1154,7 @@ footer .social-links li:first-child {
 
 	align-items: center;
 	opacity: 0;
-	transition: 2s ease;
+	transition: 3s linear;
 }
 
 .slide h3 {
@@ -1183,7 +1185,7 @@ footer .social-links li:first-child {
 .image {
 	position: absolute;
 	top: 50%;
-	left: 30%;
+	left: 25%;
 	width: 50%;
 
 	height: 30%;

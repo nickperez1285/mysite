@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 
 const Slideshow = ({ slides }) => {
+	// images / portfolio / cars.png;
+	// const slideImages = ["/images/portfolio/hack1.jpg", "/images/portfolio/hack2.jpg","/images/portfolio/hack3.jpg", "/images/portfolio/hack2.jpg"];
 	const [curr, setCurr] = useState(0);
 	const [loaded, setLoad] = useState(false);
 	const { length } = slides;
@@ -11,7 +15,7 @@ const Slideshow = ({ slides }) => {
 	};
 
 	useEffect(() => {
-		setTimeout(goToNext, 2500);
+		setTimeout(goToNext, 3500);
 	});
 	if (!Array.isArray(slides) || slides.length <= 0) {
 		return null;
@@ -23,8 +27,7 @@ const Slideshow = ({ slides }) => {
 		<section className="slider">
 			{slides.map((s, i) => (
 				<div className={i === curr ? "slide active" : "slide"} key={s.title} aria-hidden={i !== curr}>
-					{/* <img className="image" src={s.image} onLoad={() => ready()} /> */}
-					<img className="image" src={s.image} />
+					{i === curr && <img className="image" src={s.image} />}
 					{/* {loaded && ( */}
 					{/* <div> */}
 					{/* <div style={{ top: "85%", position: "absolute" }}> */}
@@ -37,37 +40,6 @@ const Slideshow = ({ slides }) => {
 		</section>
 	);
 };
-// };const Slideshow = ({ images = [], interval = 3000 }) => {
-// 	const [thumbnails, setThumnails] = useState([]);
-// 	const [currentSlide, setCurrentSlide] = useState(0);
-//     const [currentSlideStyle, setCurrentSlideStyle] = useState({});
-//     useEffect(() => {
-// 			setThumnails(images);
-// 			setCurrentSlideStyle({
-// 				backgroundImage: "url('" + images[currentSlide] + "')",
-// 			});
-// 		}, [images, currentSlide]);
-
-// 	return (
-// 		<section className="slideshow">
-// 			<div className="slide-holder">
-// 				<section className="slide previous-slide">
-// 					<div className="slide-thumbnail"></div>
-// 				</section>
-// 				<section className="slide current-slide">
-// 					<div style={currentSlideStyle} className="slide-thumbnail"></div>
-// 				</section>
-// 				<section className="slide next-slide">
-// 					<div className="slide-thumbnail"></div>
-// 				</section>
-// 			</div>
-
-// 			<div className="slideshow-controller">
-// 				<span>Previous</span>
-// 				<span>Next</span>
-// 			</div>
-// 		</section>
-// 	);
-// };
+// }
 
 export default Slideshow;
