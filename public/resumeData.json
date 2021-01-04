@@ -1,0 +1,149 @@
+{
+	"main": {
+		"name": "Nick Perez",
+		"occupation": " Bay Area based Full Stack Web Developer & Entrepreneur",
+		"description": " Nearly a decade of experience  in web development  and business/marketing    ",
+		"image": "profilepic.jpg",
+		"bio": "         'Hello World'.Nick Perez is a full stack web developer specializing in Javascript and its related libraries. Currently,  he is working for a company called Open Water where he  takes part in developing their ecommerce  platform using React Native. Over the past decade he has been given the oppurtunity to code for some amazing companies and startups.He initially started  coding primarily in Ruby and Ruby on Rails. However , as  time went on and technology progressed he switched  focus to Javascript to take advantage of the capabilties it affords. It has been about three years since since  that deciscion was made and he is now coding exclusively in JS  doing everything from building API's with node , mobile apps with React Native and  websites like this one using React. He  takes pride in his ability to adapt in response to emerging technologies as it helps  keep his skills up to date in an industry that is continuosly evolving.  ",
+		"contactmessage": "Shoot me an email if you have any questions or know of any oppurtunities  ",
+		"email": "nickperez1285@gmail.com",
+		"phone": "6502742567",
+		"address": {
+			"street": "",
+			"city": "San Francisco",
+			"state": "Ca",
+			"zip": "(Your Zip/Postal Code)"
+		},
+		"website": "http://www.nickperez.co",
+		"resumedownload": "https://docs.google.com/document/d/e/2PACX-1vSn9ISFGQNjCleokWhYnlZnySyhDxqP0_wrtRlysm98C6_s44gAsLdrJstyDBOzs4TQMQtG4DhwSF9f/pub",
+		"social": [
+			{
+				"name": "facebook",
+				"url": "https://www.facebook.com/nick.p.delacruz/",
+				"className": "fa fa-facebook"
+			},
+
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/nickperez1",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/nick_perez_dlc/",
+				"className": "fa fa-instagram"
+			},
+			{
+				"name": "github",
+				"url": "http://github.com/nickperez1285",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "Developer Skills ",
+		"education": [
+			{
+				"school": "University of San Francisco",
+				"degree": "International Business , Minor Computer Science ",
+				"graduated": "Dec 2010",
+				"description": "3.7 GPA "
+			}
+		],
+		"work": [
+			{
+				"company": "Open Water",
+				"title": "Full Stack Developer ",
+				"years": "Aug 2020 - Present",
+				"description": "Develop ecommerce platform for mobile app. Technologies used inlcude : React Native , Node, Aloglia, Firebase, Stripe, Square, Postmates, "
+			},
+			{
+				"company": "Bolero Tech",
+				"title": "Full Stack  Engineer",
+				"years": "May 2016 - Dec 2019",
+				"description": "Responsible for all development needs including  an exclusive client networking tool/site . Technolgies used include: Ruby on Rails ,React, Javscript , Node, AWS, HTML , CSS, "
+			},
+			{
+				"company": "PiccMee",
+				"title": "Full Stack  Developer",
+				"years": "May 2016 - Dec 2019",
+				"description": "Rebuilt social networking mobile app for web. . Technolgies used include: Javascript, Ruby on Rails, AWS "
+			}
+		],
+		"skills": [
+			{
+				"name": "Git",
+				"level": "90%"
+			},
+			{
+				"name": "Javascript",
+				"level": "90%"
+			},
+			{
+				"name": "ReactJs",
+				"level": "95%"
+			},
+			{
+				"name": "Redux",
+				"level": "90%"
+			},
+			{
+				"name": "Node",
+				"level": "80%"
+			},
+			{
+				"name": "CSS",
+				"level": "75%"
+			},
+			{
+				"name": "HTML5",
+				"level": "80%"
+			},
+
+			{
+				"name": "Ruby",
+				"level": "75%"
+			},
+			{
+				"name": "Ruby on Rails",
+				"level": "70%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Car Calc",
+				"category": " Web app that lists cars and lets users select a variety of options showing total costs as each feature is added. Made with React, Redux , React-Dom ",
+				"image": "cars.png",
+				"url": "https://car-sales-nu.now.sh/"
+			},
+			{
+				"title": "React Book Shop",
+				"category": "My attempt to make a  book shopping app similar to Amazon while using my own custom coded API  .Makes use of React, Node, Express, Knex  ",
+				"image": "books.png",
+				"url": "https://react-bookshop.vercel.app/"
+			},
+			{
+				"title": "LESS Fun Site",
+				"category": "Site made to demonstrate  mobile first methods and LESS stylesheets. Site viewable with any device, in any orientation, while maintaining design consistancy ",
+				"image": "dom2.png",
+				"url": "https://www.nickperez.co/projects/LESS/index.html"
+			},
+			{
+				"title": "Node API",
+				"category": "Classic todo list RESTful API with CRUD routes for todos and users. Also integrates authentication with JWT and Bcrypt ",
+				"image": "api.png",
+				"url": "https://www.nickperez.co/projects/LESS/index.html"
+			}
+		]
+	},
+	"testimonials": {
+		"testimonials": [
+			{
+				"text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+				"user": "Kareem Abdul Jabbar"
+			}
+		]
+	}
+}
