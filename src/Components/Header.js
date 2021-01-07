@@ -81,15 +81,25 @@ class Header extends Component {
 						</h3>
 						<hr />
 						<ul className="social">{networks}</ul>
+						<div style={{ height: 200 }}>
+							<Slideshow slides={defaultSlides} />
+						</div>
+						{/* <img src={"images/portfolio/hack2.jpg"} /> */}
 					</div>
 				</div>
+
+				{/* <div className="row banner">
+				</div> */}
+
 				<div
 					style={{
 						borderColor: "black",
 						height: "20%",
 						alignSelf: "center",
 					}}>
-					<Slideshow slides={defaultSlides} />
+					<img src={"images/portfolio/hack2.jpg"} />
+
+					{/* <Slideshow slides={defaultSlides} /> */}
 				</div>
 				<p className="scrolldown">
 					<a className="smoothscroll" href="#about">
