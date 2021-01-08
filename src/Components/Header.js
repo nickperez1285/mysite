@@ -4,7 +4,19 @@ import defaultSlides from "./Slides";
 
 // import cars from "../../public/images/portfolio/cars.png";
 
-class Header extends Component {
+class Header extends React.Component {
+	// constructor(props) {
+	// 	super(props);
+	// 	this.state = {
+	// 		active: false,
+	// 	};
+	// 	this.addActiveClass = this.addActiveClass.bind(this);
+	// }
+
+	// toggleClass() {
+	// 	const currentState = this.state.active;
+	// 	this.setState({ active: !currentState });
+	// }
 	render() {
 		if (this.props.data) {
 			//   var projectImage = "images/portfolio/" + ;
@@ -29,19 +41,14 @@ class Header extends Component {
 		return (
 			<header id="home">
 				<nav id="nav-wrap">
-					<a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+					{/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
 						Show navigation
 					</a>
 					<a className="mobile-btn" href="#home" title="Hide navigation">
 						Hide navigation
-					</a>
+					</a> */}
 
 					<ul id="nav" className="nav">
-						<li className="current">
-							<a className="smoothscroll" href="#home">
-								Home
-							</a>
-						</li>
 						<li>
 							<a className="smoothscroll" href="#about">
 								About
@@ -67,7 +74,15 @@ class Header extends Component {
 								Contact
 							</a>
 						</li>
+						<li>
+							{/* <li className={this.state.active ? "current" : null} onClick={this.toggleClass}> */}
+							<a className="smoothscroll" href="#home">
+								Home
+							</a>
+						</li>
 					</ul>
+
+					<ul className="social">{networks}</ul>
 				</nav>
 
 				<div className="row banner">
@@ -80,7 +95,6 @@ class Header extends Component {
 							<span>{occupation}</span>. {description}.
 						</h3>
 						<hr />
-						<ul className="social">{networks}</ul>
 						<div style={{ height: 200 }}>
 							<Slideshow slides={defaultSlides} />
 						</div>
