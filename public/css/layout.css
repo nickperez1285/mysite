@@ -59,7 +59,7 @@ header .banner {
 	padding-bottom: 30px;
 	text-align: center;
 	margin-top: 5%;
-	margin-bottom: 50%;
+	margin-bottom: 30%;
 }
 
 header .banner-text {
@@ -219,7 +219,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-	background: #2b2b2b;
+	background: #394f6a;
 	padding-top: 96px;
 	padding-bottom: 66px;
 	overflow: hidden;
@@ -231,7 +231,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-	color: #11abb0;
+	color: hsl(239, 84%, 39%);
 }
 
 #about h2 {
@@ -285,7 +285,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-	color: #11abb0;
+	color: hsl(239, 84%, 39%);
 }
 #resume a:hover,
 #resume a:focus {
@@ -298,7 +298,7 @@ ul#nav li.current a {
 	letter-spacing: 1px;
 }
 #resume h1 span {
-	border-bottom: 3px solid #11abb0;
+	border-bottom: 3px solid hsl(239, 84%, 39%);
 	padding-bottom: 6px;
 }
 #resume h3 {
@@ -902,7 +902,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-	color: #11abb0;
+	color: hsl(239, 84%, 39%);
 }
 #contact a:hover,
 #contact a:focus {
@@ -972,7 +972,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11abb0;
+	background-color: hsl(239, 84%, 39%);
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -991,7 +991,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11abb0;
+	color: hsl(239, 84%, 39%);
 	font-size: 13px;
 }
 #message-warning,
@@ -1007,7 +1007,7 @@ call-to-action .button {
 	color: #d72828;
 }
 #message-success {
-	color: #11abb0;
+	color: hsl(239, 84%, 39%);
 }
 
 #message-warning i,
