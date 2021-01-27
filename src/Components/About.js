@@ -25,7 +25,8 @@ class About extends Component {
 						<h2>About Me</h2>
 
 						<p>{bio}</p>
-						<p> In my free time I enjoy longboarding , snowboarding , and aerial photography .</p>
+						<p> In his free time he enjoys all sports that include riding boards including longboarding , snowboarding , and surfing. If hes not out riding his boards hes out taking some 
+                       aerial photos (,like the one in the background, ) with his drones  .</p>
 						<div className="row">
 							<div className="columns contact-details">
 								<h2>Contact Details</h2>
